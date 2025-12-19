@@ -1,153 +1,84 @@
-# 🪐 FlorisNexus Core Engine
+# 🪐 FlorisNexus
+> **Solutions Numériques Haute Performance pour Indépendants & Artisans.**
 
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge) ![.NET](https://img.shields.io/badge/.NET-10.0-purple?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Open_for_Work-success?style=for-the-badge) ![Expertise](https://img.shields.io/badge/Expertise-.NET_%2F_Azure-purple?style=for-the-badge)
 
-> **Le socle technique haute performance pour indépendants et artisans.**
-
-**FlorisNexus Core** est le repository de référence (*boilerplate*) utilisé pour propulser les solutions numériques de mes clients. Ce projet centralise les meilleures pratiques en **.NET 10**, **Blazor** et **Clean Architecture** afin de garantir **rapidité de déploiement**, **robustesse** et **scalabilité**.
+**FlorisNexus** est mon entreprise de développement logiciel freelance.  
+Je transforme vos besoins métiers en solutions numériques robustes, rapides et évolutives. Mon objectif est d'apporter la qualité logicielle des grandes entreprises aux artisans, indépendants et PME.
 
 ---
 
-## 🚀 Vision du projet
+## 🚀 Ma Mission
 
-L’objectif de ce repository est de fournir une structure **Ready-to-Market** pour :
+J'accompagne les professionnels dans leur transformation numérique à travers trois axes principaux :
 
-| Type de Projet | Description |
+| Service | Description |
 | :--- | :--- |
-| **🏢 SaaS métier** | Gestion de stocks, plannings, facturation spécialisée, outils sectoriels. |
-| **✨ Sites vitrines** | Expériences web modernes, performantes et optimisées pour le SEO. |
-| **🛠️ Outils internes** | Automatisation de processus et applications internes pour artisans et indépendants. |
+| **🏢 Applications Métier & SaaS** | Développement de logiciels sur mesure (ERP, CRM, Gestion de stocks) pour automatiser votre activité. |
+| **✨ Sites Vitrines Premium** | Création de sites web ultra-rapides, modernes et optimisés pour le référencement (SEO). |
+| **🛠️ Outils & Automatisation** | Scripts et outils internes pour gagner du temps sur vos tâches répétitives. |
 
 ---
 
-## 🛠 Tech Stack
+## � L'Approche FlorisNexus
+
+Je ne pars jamais de zéro. Pour garantir **rapidité** et **fiabilité**, je m'appuie sur mon propre socle technique interne : le **FlorisNexus Core Engine**.
+
+Cela me permet de vous livrer des projets avec des standards de qualité industrielle dès le premier jour :
+
+*   ✅ **Clean Architecture** : Code maintenable et évolutif.
+*   ✅ **Sécurité** : Authentification et protection des données incluses.
+*   ✅ **Performance** : Temps de chargement optimisés.
+*   ✅ **Hébergement Cloud** : Déploiement professionnel sur Microsoft Azure.
 
 ```mermaid
-pie title Répartition Technologique
-    "C# / .NET 10" : 45
-    "Blazor (Server & WASM)" : 30
-    "Azure Cloud" : 15
-    "SQL Server" : 10
-```
+graph LR
+    Client[Votre Besoin] -->|Analyse & Conception| Nexus[FlorisNexus Core]
+    Nexus -->|Développement Rapide| App[Votre Solution Sur Mesure]
+    App -->|Hébergement & Suivi| Cloud[Azure Cloud]
 
-| Composant | Technologie |
-| :--- | :--- |
-| **Framework** | ![.NET](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white) |
-| **Frontend** | ![Blazor](https://img.shields.io/badge/Blazor-Auto_Mode-512BD4?logo=blazor&logoColor=white) |
-| **Langage** | ![C#](https://img.shields.io/badge/C%23-13-239120?logo=c-sharp&logoColor=white) |
-| **Base de données** | ![SQL Server](https://img.shields.io/badge/SQL_Server-Azure_SQL-CC2927?logo=microsoft-sql-server&logoColor=white) |
-| **ORM** | Entity Framework Core |
-| **Cloud** | ![Azure](https://img.shields.io/badge/Azure-App_Services-0078D4?logo=microsoft-azure&logoColor=white) |
-| **UI / UX** | Tailwind CSS / MudBlazor |
+    style Client fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+    style Nexus fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style App fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style Cloud fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+```
 
 ---
 
-## 🏗 Architecture
+## 🛠 Expertise Technique
 
-Le projet suit les principes de la **Clean Architecture** pour une séparation claire des responsabilités.
+Je suis spécialisé dans l'écosystème Microsoft, reconnu pour sa stabilité et sa performance en entreprise.
 
 ```mermaid
-graph TD
-    subgraph Presentation ["🖥️ Presentation Layer"]
-        Web[FlorisNexus.Web\n(Blazor UI)]
-    end
-
-    subgraph Core ["🧠 Core Layer"]
-        App[FlorisNexus.Application\n(Use Cases & Interfaces)]
-        Domain[FlorisNexus.Domain\n(Entités & Règles Métier)]
-    end
-
-    subgraph Infrastructure ["🏗️ Infrastructure Layer"]
-        Infra[FlorisNexus.Infrastructure\n(EF Core, APIs Externes)]
-        DB[(SQL Server)]
-    end
-
-    Web -->|Utilise| App
-    Infra -->|Implémente| App
-    App -->|Définit| Domain
-    Infra -->|Persiste| DB
-
-    style Web fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style App fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style Domain fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    style Infra fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+pie title Mon Expertise Technique
+    "C# / .NET (Backend)" : 40
+    "Blazor (Frontend)" : 30
+    "Azure (Cloud)" : 20
+    "SQL (Données)" : 10
 ```
 
-- **`FlorisNexus.Domain`** : Cœur du métier, indépendant de tout framework.
-- **`FlorisNexus.Application`** : Orchestration, DTOs, et logique applicative.
-- **`FlorisNexus.Infrastructure`** : Implémentation technique (Base de données, Emails, etc.).
-- **`FlorisNexus.Web`** : Interface utilisateur réactive.
+### Technologies Maîtrisées
+
+*   **Backend** : ![.NET](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white) ![C#](https://img.shields.io/badge/C%23-13-239120?logo=c-sharp&logoColor=white)
+*   **Frontend** : ![Blazor](https://img.shields.io/badge/Blazor-Web_App-512BD4?logo=blazor&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+*   **Cloud & DevOps** : ![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoft-azure&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?logo=github-actions&logoColor=white)
+*   **Data** : ![SQL Server](https://img.shields.io/badge/SQL_Server-Database-CC2927?logo=microsoft-sql-server&logoColor=white) ![EF Core](https://img.shields.io/badge/EF_Core-ORM-512BD4?logo=.net&logoColor=white)
 
 ---
 
-## ✨ Fonctionnalités (Core Features)
+## � Travailler avec moi
 
-- [x] **🔐 Authentication & Authorization** : ASP.NET Core Identity préconfiguré.
-- [x] **🎨 UI Kit** : Composants réutilisables pour formulaires et tableaux de bord.
-- [x] **🌍 Multilingue (i18n)** : Support prêt pour les marchés locaux et internationaux.
-- [x] **📜 Audit Logging** : Traçabilité des actions pour conformité et debugging.
-- [x] **🚀 CI / CD** : Workflows GitHub Actions pour build et déploiement Azure.
-- [x] **🔍 SEO Engine** : Gestion dynamique des Meta Tags pour les sites vitrines.
-
----
-
-## ⚙️ Installation rapide
-
-### 1. Cloner le projet
-
-```bash
-git clone https://github.com/votre-compte/florisnexus-core.git
-cd florisnexus-core
-```
-
-### 2. Configurer la base de données
-
-Mettre à jour la chaîne de connexion dans `appsettings.json` ou utiliser les **User Secrets** (recommandé en local) :
-
-```json
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=FlorisNexusDb;Trusted_Connection=True;"
-  }
-}
-```
-
-### 3. Appliquer les migrations
-
-```bash
-dotnet ef database update \
-  --project FlorisNexus.Infrastructure \
-  --startup-project FlorisNexus.Web
-```
-
-### 4. Lancer l’application
-
-```bash
-dotnet run --project FlorisNexus.Web
-```
-
----
-
-## 📈 Gestion de l’entreprise
-
-> *Laboratoire technique pour tester et valider l'optimisation et la scalabilité.*
-
-- **💰 Optimisation des coûts** : Azure Free / B1 tiers.
-- **💳 Monétisation** : Intégration de modules de paiement (Stripe, PayPal).
-- **📊 Reporting** : Génération automatisée de rapports pour une comptabilité simplifiée.
-
----
-
-## 📞 Contact & Support
+Vous avez un projet ? Une idée ? Discutons-en.
 
 <div align="center">
 
 ### **FlorisNexus**
-*Développeur de solutions sur mesure pour ceux qui créent.*
+*L'excellence technique au service de votre métier.*
 
 **Fondateur** : Floris  
-**Expertise** : .NET · Azure · SaaS Strategy
+**Localisation** : Freelance (Disponible en Remote)
 
-[🌐 Website (En cours)](https://florisnexus.com)
+[🌐 Visiter le site (Bientôt disponible)](https://florisnexus.com)  
+[✉️ Me contacter](mailto:contact@florisnexus.com)
 
 </div>
