@@ -20,27 +20,25 @@ J'accompagne les professionnels dans leur transformation numérique à travers t
 
 ---
 
-## � L'Approche FlorisNexus
+## 💎 Pourquoi FlorisNexus ?
 
-Je ne pars jamais de zéro. Pour garantir **rapidité** et **fiabilité**, je m'appuie sur mon propre socle technique interne : le **FlorisNexus Core Engine**.
+Je privilégie une approche **sur mesure** et **artisanale** du code. Pas de solutions toutes faites, mais une réponse précise à vos problèmes.
 
-Cela me permet de vous livrer des projets avec des standards de qualité industrielle dès le premier jour :
-
-*   ✅ **Clean Architecture** : Code maintenable et évolutif.
-*   ✅ **Sécurité** : Authentification et protection des données incluses.
-*   ✅ **Performance** : Temps de chargement optimisés.
-*   ✅ **Hébergement Cloud** : Déploiement professionnel sur Microsoft Azure.
+*   ✅ **Qualité Industrielle** : Utilisation des standards les plus stricts (.NET, Clean Architecture).
+*   ✅ **Performance** : Des applications rapides et fluides, optimisées pour l'expérience utilisateur.
+*   ✅ **Sécurité** : Vos données et celles de vos clients sont protégées dès la conception.
+*   ✅ **Scalabilité** : Des solutions conçues pour grandir avec votre activité, hébergées sur le Cloud Azure.
 
 ```mermaid
 graph LR
-    Client[Votre Besoin] -->|Analyse & Conception| Nexus[FlorisNexus Core]
-    Nexus -->|Développement Rapide| App[Votre Solution Sur Mesure]
-    App -->|Hébergement & Suivi| Cloud[Azure Cloud]
+    Client[Votre Besoin] -->|Analyse & Écoute| Dev[Développement Sur Mesure]
+    Dev -->|Qualité & Tests| Livraison[Solution Fiable]
+    Livraison -->|Suivi & Évolution| Croissance[Votre Réussite]
 
     style Client fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style Nexus fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style App fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    style Cloud fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style Dev fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style Livraison fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style Croissance fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
 ```
 
 ---
@@ -66,7 +64,7 @@ pie title Mon Expertise Technique
 
 ---
 
-## � Travailler avec moi
+## 📞 Travailler avec moi
 
 Vous avez un projet ? Une idée ? Discutons-en.
 
@@ -75,8 +73,8 @@ Vous avez un projet ? Une idée ? Discutons-en.
 ### **FlorisNexus**
 *L'excellence technique au service de votre métier.*
 
-**Fondateur** : Floris  
-**Localisation** : Freelance (Disponible en Remote)
+**Fondateur** : Florian Di Vrusa  
+**Localisation** : Belgique (Disponible en Remote)
 
 [🌐 Visiter le site (Bientôt disponible)](https://florisnexus.com)  
 [✉️ Me contacter](mailto:contact@florisnexus.com)
