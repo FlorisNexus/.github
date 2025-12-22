@@ -76,7 +76,7 @@ Vous avez un projet ? Une idée ? Discutons-en.
 **Fondateur** : Florian Di Vrusa  
 **Localisation** : Belgique (Disponible en Remote)
 
-[🌐 Visiter le site (Bientôt disponible)](https://florisnexus.com)  
+[🌐 Visiter le site](https://florisnexus.com)  
 [✉️ Me contacter](mailto:contact@florisnexus.com)
 
 </div>
