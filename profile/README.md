@@ -1,7 +1,7 @@
 # 🪐 FlorisNexus
 > **Solutions Numériques Haute Performance pour Indépendants & Artisans.**
 
-![Status](https://img.shields.io/badge/Status-Open_for_Work-success?style=for-the-badge) ![Expertise](https://img.shields.io/badge/Expertise-.NET_%2F_Azure-purple?style=for-the-badge)
+![Expertise](https://img.shields.io/badge/Expertise-.NET_%2F_Azure-purple?style=for-the-badge)
 
 **FlorisNexus** est mon entreprise de développement logiciel freelance.  
 Je transforme vos besoins métiers en solutions numériques robustes, rapides et évolutives. Mon objectif est d'apporter la qualité logicielle des grandes entreprises aux artisans, indépendants et PME.
