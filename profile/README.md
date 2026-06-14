@@ -15,25 +15,38 @@ I divide my engineering focus into two dedicated tracks, ensuring tailored excel
 
 ```mermaid
 graph TD
+    Need["💡 Business Vision & Need"] --> Align["🤝 Strategy & Architecture"]
+    
+    Align --> Track1["🏡 Track 1: The Local Hero"]
+    Align --> Track2["🌍 Track 2: International SaaS"]
+    
+    Track1 --> Dev1["⚡ Vite + React / Tailwind CSS"]
+    Track1 --> SWA["🚀 Azure Static Web Apps"]
+    Track1 --> SEO["📈 100/100 Core Web Vitals & Local SEO"]
+    
+    Track2 --> Dev2["🏗️ .NET 10 & Blazor WASM/Server"]
+    Track2 --> Cloud["☁️ Azure Serverless & Service Bus"]
+    Track2 --> Public["📢 Build in Public & Multi-Tenancy"]
+    
+    SEO --> Deliver1["💎 Premium Showcase / SME App"]
+    Public --> Deliver2["📈 Scalable Global SaaS Product"]
+
     classDef local fill:#1f3d3d,stroke:#2e5c5c,stroke-width:2px,color:#fff;
     classDef saas fill:#1a2b4c,stroke:#2a4478,stroke-width:2px,color:#fff;
     classDef core fill:#5c253b,stroke:#8f3a5c,stroke-width:2px,color:#fff;
 
-    Need["💡 Business Vision & Need"] :::core --> Align["🤝 Strategy & Architecture"] :::core
-    
-    Align --> Track1["🏡 Track 1: The Local Hero"] :::local
-    Align --> Track2["🌍 Track 2: International SaaS"] :::saas
-    
-    Track1 --> Dev1["⚡ Vite + React / Tailwind CSS"] :::local
-    Track1 --> SWA["🚀 Azure Static Web Apps"] :::local
-    Track1 --> SEO["📈 100/100 Core Web Vitals & Local SEO"] :::local
-    
-    Track2 --> Dev2["🏗️ .NET 10 & Blazor WASM/Server"] :::saas
-    Track2 --> Cloud["☁️ Azure Serverless & Service Bus"] :::saas
-    Track2 --> Public["📢 Build in Public & Multi-Tenancy"] :::saas
-    
-    SEO --> Deliver1["💎 Premium Showcase / SME App"] :::local
-    Public --> Deliver2["📈 Scalable Global SaaS Product"] :::saas
+    class Need core;
+    class Align core;
+    class Track1 local;
+    class Dev1 local;
+    class SWA local;
+    class SEO local;
+    class Deliver1 local;
+    class Track2 saas;
+    class Dev2 saas;
+    class Cloud saas;
+    class Public saas;
+    class Deliver2 saas;
 ```
 
 ### 🏡 Track 1: The Local Hero (Local Digital Presence)
