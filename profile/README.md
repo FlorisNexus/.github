@@ -84,6 +84,6 @@ I architect and build enterprise-grade, multi-tenant B2B/B2C SaaS products engin
 ## 📬 Let's Connect
 Looking to establish a stellar local presence, or need a robust cloud-native architecture for your next SaaS?
 
-*   💼 **Freelance Inquiries**: info@florisnexus.be
-*   🌐 **Website**: [florisnexus.be](https://florisnexus.be)
+*   💼 **Freelance Inquiries**: florian.divrusa@florisnexus.com
+*   🌐 **Website**: [florisnexus.com](https://florisnexus.com)
 *   💻 **GitHub**: [@FlorisNexus](https://github.com/FlorisNexus)
