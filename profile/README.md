@@ -1,82 +1,76 @@
 # 🪐 FlorisNexus
-> **Solutions Numériques Haute Performance pour Indépendants & Artisans.**
+> **High-Performance Digital Engineering for Local Experts & Global Platforms.**
 
-![Expertise](https://img.shields.io/badge/Expertise-.NET_%2F_Azure-purple?style=for-the-badge)
+[![Tech Stack](https://img.shields.io/badge/Stack-.NET%2010%20%7C%20Blazor%20%7C%20React-blue?style=for-the-badge&logo=.net)](https://github.com/FlorisNexus)
+[![Cloud Platform](https://img.shields.io/badge/Cloud-Azure-0089D6?style=for-the-badge&logo=microsoftazure)](https://github.com/FlorisNexus)
+[![Philosophy](https://img.shields.io/badge/Philosophy-Build%20In%20Public-orange?style=for-the-badge)](https://github.com/FlorisNexus)
 
-**FlorisNexus** est mon entreprise de développement logiciel freelance.  
-Je transforme vos besoins métiers en solutions numériques robustes, rapides et évolutives. Mon objectif est d'apporter la qualité logicielle des grandes entreprises aux artisans, indépendants et PME.
-
----
-
-## 🚀 Ma Mission
-
-J'accompagne les professionnels dans leur transformation numérique à travers trois axes principaux :
-
-| Service | Description |
-| :--- | :--- |
-| **🏢 Applications Métier & SaaS** | Développement de logiciels sur mesure (ERP, CRM, Gestion de stocks) pour automatiser votre activité. |
-| **✨ Sites Vitrines Premium** | Création de sites web ultra-rapides, modernes et optimisés pour le référencement (SEO). |
-| **🛠️ Outils & Automatisation** | Scripts et outils internes pour gagner du temps sur vos tâches répétitives. |
+Welcome! I am **Florian**, the software architect behind **FlorisNexus**. I operate at the intersection of artisanal code crafting and high-scale cloud software, delivering elite digital products through a strategic dual-track framework.
 
 ---
 
-## 💎 Pourquoi FlorisNexus ?
+## 🛠️ The Dual-Track Strategy
 
-Je privilégie une approche **sur mesure** et **artisanale** du code. Pas de solutions toutes faites, mais une réponse précise à vos problèmes.
-
-*   ✅ **Qualité Industrielle** : Utilisation des standards les plus stricts (.NET, Clean Architecture).
-*   ✅ **Performance** : Des applications rapides et fluides, optimisées pour l'expérience utilisateur.
-*   ✅ **Sécurité** : Vos données et celles de vos clients sont protégées dès la conception.
-*   ✅ **Scalabilité** : Des solutions conçues pour grandir avec votre activité, hébergées sur le Cloud Azure.
+I divide my engineering focus into two dedicated tracks, ensuring tailored excellence whether serving local business communities or scaling software globally.
 
 ```mermaid
-graph LR
-    Client[Votre Besoin] -->|Analyse & Écoute| Dev[Développement Sur Mesure]
-    Dev -->|Qualité & Tests| Livraison[Solution Fiable]
-    Livraison -->|Suivi & Évolution| Croissance[Votre Réussite]
+graph TD
+    classDef local fill:#1f3d3d,stroke:#2e5c5c,stroke-width:2px,color:#fff;
+    classDef saas fill:#1a2b4c,stroke:#2a4478,stroke-width:2px,color:#fff;
+    classDef core fill:#5c253b,stroke:#8f3a5c,stroke-width:2px,color:#fff;
 
-    style Client fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style Dev fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style Livraison fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    style Croissance fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    Need["💡 Business Vision & Need"] :::core --> Align["🤝 Strategy & Architecture"] :::core
+    
+    Align --> Track1["🏡 Track 1: The Local Hero"] :::local
+    Align --> Track2["🌍 Track 2: International SaaS"] :::saas
+    
+    Track1 --> Dev1["⚡ Vite + React / Tailwind CSS"] :::local
+    Track1 --> SWA["🚀 Azure Static Web Apps"] :::local
+    Track1 --> SEO["📈 100/100 Core Web Vitals & Local SEO"] :::local
+    
+    Track2 --> Dev2["🏗️ .NET 10 & Blazor WASM/Server"] :::saas
+    Track2 --> Cloud["☁️ Azure Serverless & Service Bus"] :::saas
+    Track2 --> Public["📢 Build in Public & Multi-Tenancy"] :::saas
+    
+    SEO --> Deliver1["💎 Premium Showcase / SME App"] :::local
+    Public --> Deliver2["📈 Scalable Global SaaS Product"] :::saas
 ```
+
+### 🏡 Track 1: The Local Hero (Local Digital Presence)
+I design ultra-fast, premium web experiences and custom management tools for local artisans, SMEs, and professionals.
+*   **Focus:** Blazing-fast loading speeds, bespoke visual design, pixel-perfect responsiveness, and local SEO dominance.
+*   **Tech Stack:** React, TypeScript, Tailwind CSS, Vite, Azure Static Web Apps.
+*   **Performance Target:** $\ge$ 95+ Mobile Lighthouse scores & tailored structured schema data.
+*   **Featured Projects:** 
+    *   [FlorisNexus Agency](https://github.com/FlorisNexus/FlorisNexus) — Agency landing page optimized for local acquisition.
+    *   [KiDoKaï](https://github.com/FlorisNexus/KiDoKai) — Showcase site for a local martial arts club.
+    *   [NordicHorizons](https://github.com/FlorisNexus/NordicHorizons) — Modern booking/shuttle showcase portal.
+
+### 🌍 Track 2: International SaaS (Global Tech Infrastructure)
+I architect and build enterprise-grade, multi-tenant B2B/B2C SaaS products engineered for high concurrency and cloud scalability.
+*   **Focus:** Solid database isolation, Event-Driven Architecture, secure Managed Identities, and automated Bicep infrastructures.
+*   **Tech Stack:** .NET 10, Blazor Server/WASM, Azure App Services, Functions, Service Bus, SQL Server, and .NET Aspire.
+*   **Philosophy:** **Build in Public** with technical transparency and clean architecture.
+*   **Featured Projects:**
+    *   [Continuum](https://github.com/FlorisNexus/Continuum) — Real-time API monitoring and alerting platform (Active v1 launch).
+    *   [Patrimio](https://github.com/FlorisNexus/Patrimio) — Belgian rental indexation calculator and landlord helper.
+    *   [3Smiles](https://github.com/FlorisNexus/3smiles) — Multi-tenant restaurant menu management and real-time staff dispatcher.
+    *   [StatVue](https://github.com/FlorisNexus/StatVue) — Belgian public statistics aggregator using open data API integrations.
 
 ---
 
-## 🛠 Expertise Technique
+## 💎 My Engineering Commitments
 
-Je suis spécialisé dans l'écosystème Microsoft, reconnu pour sa stabilité et sa performance en entreprise.
-
-```mermaid
-pie title Mon Expertise Technique
-    "C# / .NET (Backend)" : 40
-    "Blazor (Frontend)" : 30
-    "Azure (Cloud)" : 20
-    "SQL (Données)" : 10
-```
-
-### Technologies Maîtrisées
-
-*   **Backend** : ![.NET](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white) ![C#](https://img.shields.io/badge/C%23-13-239120?logo=c-sharp&logoColor=white)
-*   **Frontend** : ![Blazor](https://img.shields.io/badge/Blazor-Web_App-512BD4?logo=blazor&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
-*   **Cloud & DevOps** : ![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoft-azure&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?logo=github-actions&logoColor=white)
-*   **Data** : ![SQL Server](https://img.shields.io/badge/SQL_Server-Database-CC2927?logo=microsoft-sql-server&logoColor=white) ![EF Core](https://img.shields.io/badge/EF_Core-ORM-512BD4?logo=.net&logoColor=white)
+*   ⚡ **Zero-Compromise Performance**: Fast interfaces keep users engaged and search engines happy.
+*   🔒 **Security by Design**: Complete tenant isolation, managed identities, and secure credentials management.
+*   🪵 **Clean & Documented Code**: Adherence to the *One Class per File* principle, strict architectural patterns, and XML documentation.
+*   🚢 **Robust Automation**: Full CI/CD pipelines split across app compilation, infra provisioning, and configuration synchronization.
 
 ---
 
-## 📞 Travailler avec moi
+## 📬 Let's Connect
+Looking to establish a stellar local presence, or need a robust cloud-native architecture for your next SaaS?
 
-Vous avez un projet ? Une idée ? Discutons-en.
-
-<div align="center">
-
-### **FlorisNexus**
-*L'excellence technique au service de votre métier.*
-
-**Fondateur** : Florian Di Vrusa  
-**Localisation** : Belgique (Disponible en Remote)
-
-[🌐 Visiter le site](https://florisnexus.com)  
-[✉️ Me contacter](mailto:contact@florisnexus.com)
-
-</div>
+*   💼 **Freelance Inquiries**: info@florisnexus.be
+*   🌐 **Website**: [florisnexus.be](https://florisnexus.be)
+*   💻 **GitHub**: [@FlorisNexus](https://github.com/FlorisNexus)
