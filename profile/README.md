@@ -66,7 +66,7 @@ I architect and build enterprise-grade, multi-tenant B2B/B2C SaaS products engin
 *   **Philosophy:** **Build in Public** with technical transparency and clean architecture.
 *   **Featured Projects:**
     *   **Continuum** — Real-time API monitoring and alerting platform. | [continuumnexus.com](https://continuumnexus.com)
-    *   **Patrimio** — Belgian rental indexation calculator and landlord helper. | [patrimio.be](https://patrimio.be)
+    *   **Patrimio** — Belgian rental indexation calculator and landlord helper.
     *   **3Smiles** — Multi-tenant restaurant menu management and real-time staff dispatcher.
     *   **StatVue** — Belgian public statistics portal integrated with official government APIs.
 
