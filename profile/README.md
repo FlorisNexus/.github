@@ -55,9 +55,9 @@ I design ultra-fast, premium web experiences and custom management tools for loc
 *   **Tech Stack:** React, TypeScript, Tailwind CSS, Vite, Azure Static Web Apps.
 *   **Performance Target:** $\ge$ 95+ Mobile Lighthouse scores & tailored structured schema data.
 *   **Featured Projects:** 
-    *   [FlorisNexus Agency](https://github.com/FlorisNexus/FlorisNexus) — Agency landing page optimized for local acquisition.
-    *   [KiDoKaï](https://github.com/FlorisNexus/KiDoKai) — Showcase site for a local martial arts club.
-    *   [NordicHorizons](https://github.com/FlorisNexus/NordicHorizons) — Modern booking/shuttle showcase portal.
+    *   **FlorisNexus Agency** — Agency landing page optimized for local client acquisition. | [florisnexus.com](https://florisnexus.com)
+    *   **KiDoKaï** — Showcase site for a local martial arts club. | [kidokai.be](https://kidokai.be)
+    *   **NordicHorizons** — Modern booking and shuttle showcase portal. | [nordichorizons.ca](https://nordichorizons.ca)
 
 ### 🌍 Track 2: International SaaS (Global Tech Infrastructure)
 I architect and build enterprise-grade, multi-tenant B2B/B2C SaaS products engineered for high concurrency and cloud scalability.
@@ -65,10 +65,10 @@ I architect and build enterprise-grade, multi-tenant B2B/B2C SaaS products engin
 *   **Tech Stack:** .NET 10, Blazor Server/WASM, Azure App Services, Functions, Service Bus, SQL Server, and .NET Aspire.
 *   **Philosophy:** **Build in Public** with technical transparency and clean architecture.
 *   **Featured Projects:**
-    *   [Continuum](https://github.com/FlorisNexus/Continuum) — Real-time API monitoring and alerting platform (Active v1 launch).
-    *   [Patrimio](https://github.com/FlorisNexus/Patrimio) — Belgian rental indexation calculator and landlord helper.
-    *   [3Smiles](https://github.com/FlorisNexus/3smiles) — Multi-tenant restaurant menu management and real-time staff dispatcher.
-    *   [StatVue](https://github.com/FlorisNexus/StatVue) — Belgian public statistics aggregator using open data API integrations.
+    *   **Continuum** — Real-time API monitoring and alerting platform. | [continuumnexus.com](https://continuumnexus.com)
+    *   **Patrimio** — Belgian rental indexation calculator and landlord helper. | [patrimio.be](https://patrimio.be)
+    *   **3Smiles** — Multi-tenant restaurant menu management and real-time staff dispatcher.
+    *   **StatVue** — Belgian public statistics portal integrated with official government APIs.
 
 ---
 
